@@ -6,7 +6,10 @@ This code use [gokit package](https://gokit.io) to implement a REST HTTP service
 ## Install and Run
 $ go get github.com/xinyu/infra/inventory
 
+$ cd $GO_SRC_PATH/github.com/xinyu/infra/inventory
+
 $ go run main.go -http.addr :8080
+
 ts=2019-10-31T04:36:24.867797016Z caller=main.go:56 transport=HTTP addr=:8080
 
 
